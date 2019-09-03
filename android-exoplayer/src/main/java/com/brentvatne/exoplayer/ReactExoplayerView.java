@@ -116,7 +116,7 @@ class ReactExoplayerView extends FrameLayout implements
     private boolean isInBackground;
     private boolean isPaused;
     private boolean isBuffering;
-    private boolean muted = true;
+    private boolean muted = false;
     private float rate = 1f;
     private float audioVolume = 1f;
     private int minLoadRetryCount = 3;
